@@ -1,2 +1,2 @@
 # Big-Integer
-Big Integer made in C++ with nearly every operator overloaded
+Big Integer made in C++ with nearly every operator overloaded. I realized the algorithm I came up with for * and / is log2(n) which is slower than computing 1 pair of digits at a time( log10(n) ). This project was created to learn about operator overloading in C++. It serves its purpose and can compute the factorial of 500 in less than 1 second on modern hardware but is not as optimal as possible.
